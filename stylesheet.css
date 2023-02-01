@@ -1,256 +1,253 @@
 * {
-    box-sizing: border-box;
-    font-family: sans-serif;
-    margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  margin: 0;
 }
 .section-one {
-    display: flex;
-    background-color: #1F2937;
-    flex-direction: column;
-    align-items: center;
-    height: 550px;
+  display: flex;
+  background-color: #1f2937;
+  flex-direction: column;
+  align-items: center;
+  height: 550px;
 }
 .pl-image img {
-    width: 500px;
-
+  width: 500px;
 }
 .header-container,
 .secone-content {
-    width: 1000px;
+  width: 1000px;
 }
 .header-container {
-    display: flex;
-    height: 80px;
-    margin-bottom: 100px;
+  display: flex;
+  height: 80px;
+  margin-bottom: 100px;
 }
 .h1 {
-    display: flex;
-    margin-right: 350px;
+  display: flex;
+  margin-right: 350px;
 }
 .h1 h1 {
-    display: flex;
-    color: white;
-    font-size: 24px;
-    font-family: sans-serif;
-    font-weight: 900;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  color: white;
+  font-size: 24px;
+  font-family: sans-serif;
+  font-weight: 900;
+  justify-content: center;
+  align-items: center;
 }
 .header--link {
-    display: flex;
-    justify-content: space-around;
-    flex: 1;
+  display: flex;
+  justify-content: space-around;
+  flex: 1;
 }
 .header-link {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex: 1;
-    font-family: sans-serif;
-    font-size: 18px;
-    color:  #E5E7EB;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+  font-family: sans-serif;
+  font-size: 18px;
+  color: #e5e7eb;
 }
 .secone-content {
-    display: flex;
-    height: 250px;
+  display: flex;
+  height: 250px;
 }
 .secone-content-container,
 .pl-image {
-    display: flex;
-    flex: 1;
+  display: flex;
+  flex: 1;
 }
 .secone-content-container {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 .awesome {
-    display: flex;
-    height: 125px;
-    justify-content: center;
-    align-items: center;
-    font-size: 36px;
-    color: white;
-    font-family: sans-serif;
-    font-weight: 900;
+  display: flex;
+  height: 125px;
+  justify-content: center;
+  align-items: center;
+  font-size: 36px;
+  color: white;
+  font-family: sans-serif;
+  font-weight: 900;
 }
 .awesome-content {
-    display: flex;
-    height: 80px;
-    font-size: 18px;
-    color:#E5E7EB;
-    width: 400px;
+  display: flex;
+  height: 80px;
+  font-size: 18px;
+  color: #e5e7eb;
+  width: 400px;
 }
 .awesome-signup {
-    display: flex;
-    flex: 1;
+  display: flex;
+  flex: 1;
 }
 .awesome-signup button {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 150px;
-    border-radius: 11px;
-    background-color: #3882F6;
-    font-size: 20px;
-    font-weight: bold;
-    color: white;
-    border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 150px;
+  border-radius: 11px;
+  background-color: #3882f6;
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+  border: none;
 }
 .section-two {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    height: 490px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 490px;
 }
 
 .h2 {
-    display: flex;
-    justify-content: center;
-    height: 110px;
-    align-items: center;
-    font-size: 36px;
-    font-weight:900;
-    color: #1F2937;
-    margin: 10px;
+  display: flex;
+  justify-content: center;
+  height: 110px;
+  align-items: center;
+  font-size: 36px;
+  font-weight: 900;
+  color: #1f2937;
+  margin: 10px;
 }
 .random-info {
-    display: flex;
-    width: 1000px;
-    flex: 1;
+  display: flex;
+  width: 1000px;
+  flex: 1;
 }
 .image-1,
 .image-2,
 .image-3,
 .image-4 {
-    display: flex;
-    flex: 1;
-    flex-direction: column;
-    align-items: center;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  align-items: center;
 }
 .random-image img {
-    display: flex;
-    width: 180px;
-    height: 180px;
-    border-radius: 19px;
-    border: 5px solid #3882F6;
-    margin-bottom: 12px;
-    
+  display: flex;
+  width: 180px;
+  height: 180px;
+  border-radius: 19px;
+  border: 5px solid #3882f6;
+  margin-bottom: 12px;
 }
 .image-description {
-    display: flex;
-    width: 180px;
-    color: #505050;
-    text-align:center;
+  display: flex;
+  width: 180px;
+  color: #505050;
+  text-align: center;
 }
 .image-3 .image-description {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 .image-3 .image-description a:link,
 .image-3 .image-description a:visited {
-    color:  #505050;
+  color: #505050;
 }
 .section-three {
-    display: flex;
-    height: 480px;
-    justify-content: center;
-    background-color: #E5E7EB;
+  display: flex;
+  height: 480px;
+  justify-content: center;
+  background-color: #e5e7eb;
 }
 .quote-container {
-    display: flex;
-    flex-direction: column;
-    width: 900px;
+  display: flex;
+  flex-direction: column;
+  width: 900px;
 }
 .quote-image {
-    display: flex;
-    margin-top: 105px;
+  display: flex;
+  margin-top: 105px;
 }
 .actual-quote {
-    width: 650px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 36px;
-    font-style: italic;
-    color: #1F2937;
-    height: 150px;
-    align-items: flex-end;
-    margin-bottom: 5px;
+  width: 650px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 36px;
+  font-style: italic;
+  color: #1f2937;
+  height: 150px;
+  align-items: flex-end;
+  margin-bottom: 5px;
 }
 .quoteby {
-    display: flex;
-    width: 600px;
-    justify-content: flex-end;
-    font-size: 25px;
-    font-weight: 900;
-    color: #121820;
-
+  display: flex;
+  width: 600px;
+  justify-content: flex-end;
+  font-size: 25px;
+  font-weight: 900;
+  color: #121820;
 }
 .last {
-    width: 750px;
+  width: 750px;
 }
 .dance img {
-    display: flex;
-    border-radius: 19px;
-    border: 5px solid #1F2937;
+  display: flex;
+  border-radius: 19px;
+  border: 5px solid #1f2937;
 }
 .section-four {
-    display: flex;
-    height: 350px;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  height: 350px;
+  justify-content: center;
+  align-items: center;
 }
 .call-container {
-    display: flex;
-    width: 1000px;
-    height: 170px;
-    background-color: #3882F6;
-    border-radius: 11px;
+  display: flex;
+  width: 1000px;
+  height: 170px;
+  background-color: #3882f6;
+  border-radius: 11px;
 }
 .call {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    margin-left: 110px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 110px;
 }
 .call-signup {
-    display: flex;
-    flex: 1;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 .c-signup {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 150px;
-    border-radius: 9px;
-    background-color: #3882F6;
-    font-size: 20px;
-    font-weight: bold;
-    color: white;
-    border: 2px solid white;
-    height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 150px;
+  border-radius: 9px;
+  background-color: #3882f6;
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+  border: 2px solid white;
+  height: 40px;
 }
 .h2-call {
-    display: flex;
-    color: white;
-    font-size: 24px;
+  display: flex;
+  color: white;
+  font-size: 24px;
 }
 .font {
-    font-weight: bold;
+  font-weight: bold;
 }
 .call-description {
-    color: #E5E7EB;
+  color: #e5e7eb;
 }
 .section-five {
-    display: flex;
-    height: 80px;
-    background-color: #121820;
-    align-items: center;
-    justify-content: center;
+  display: flex;
+  height: 80px;
+  background-color: #121820;
+  align-items: center;
+  justify-content: center;
 }
 .copyright-container {
-    color: white;
+  color: white;
 }
